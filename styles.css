@@ -40,4 +40,21 @@ div {
  .container {
    height: 2000px;
  }
- 
+ .static-parent {
+    position: static;
+ }
+ .relative-parent {
+    position: relative;
+    bottom: 20px;
+    right: 50px;
+ }
+ .absolute-parent {
+   position: absolute;
+   bottom: 20px;
+   right: 50px;
+ }
+ .fixed-parent {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+ }
